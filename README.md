@@ -1,1 +1,1 @@
-file:///C:/Users/mam20/dev/third-project/slozhno-sosredotochitsya/index.html
+https://github.com/DeadInsaid0101/slozhno-sosredotochitsya
