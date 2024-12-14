@@ -1,0 +1,1 @@
+file:///C:/Users/mam20/dev/third-project/slozhno-sosredotochitsya/index.html
