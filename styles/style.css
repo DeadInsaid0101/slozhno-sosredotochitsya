@@ -94,7 +94,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--header__theme-menu-button);
+  border: 1px solid var(--header__theme-menu-button-hover);
   cursor: pointer;
 }
 
