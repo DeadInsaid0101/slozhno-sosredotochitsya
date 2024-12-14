@@ -29,7 +29,7 @@
   padding-right: 20px;
 }
 
-.h_answer_margin {
+.tittle_answer_margin {
   margin-block-end: 10px;
 }
 
@@ -37,7 +37,7 @@
   font-weight: 700;
   background-color: var(--main-color);
   font-size: var(--main-font-size);
-  color: var(--h2-color);
+  color: var(--tittle-color);
 }
 
 .text_answer {
@@ -64,7 +64,8 @@
 }
 
 .header {
-  min-block-size: 100vh;
+  block-size: 100vh;
+  min-block-size: 668px;
   padding: 20px 20px 0 20px;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -93,7 +94,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgba(255, 0, 112, 0.4);
+  border: 1px solid var(--header__theme-menu-button);
   cursor: pointer;
 }
 
@@ -106,7 +107,7 @@
 }
 
 .hero-tittle {
-  color: var(--h1-color);
+  color: var(--main-tittle-color);
   text-shadow: 4px 4px 0 var(--main-color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 129.53px;
@@ -114,9 +115,9 @@
 }
 
 .hero-text {
-  color: var(--h2-color);
+  color: var(--tittle-color);
   max-inline-size: 491px;
-  max-block-size: 71px;
+  block-size: 71px;
   align-self: center;
   justify-self: end;
 }
@@ -126,14 +127,12 @@
 .decor-element {
   display: flex;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 20px;
+  right: 29px;
   color: var(--main-color);
   font-size: var(--main-font-size);
   align-items: center;
   gap: 10px;
-  margin-top: 20px;
-  margin-right: 29px; 
 }
 
 .decor-element::after {
@@ -168,51 +167,51 @@
   border-top: 1px solid var(--main-color);
 }
 
-.first_section {
+.focus_section {
   display: grid;
   grid-template-columns: 34% 66%;
   
 }
 
-.answer_h3_p {
+.answer_focus_section {
   grid-column: 2; 
 }
 
-.answer_h3_p:not(:last-child) {
+.answer_focus_section:not(:last-child) {
   margin-block-end: 20px;
 }
 
-.second_section {
+.concentration_section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
-.second_section_h2 {
+.concentration_section_tittle {
   max-inline-size: 315px;
 }
 
-.h3_third_section {
+.main_tittle_answer_methods_section {
   margin-block-end: 20px;
 }
 
-.h4_third_section {
+.tittle_answer_section {
   font-weight: 400;
   background-color: var(--main-color);
   font-size: var(--main-font-size);
-  color: var(--h2-color);
+  color: var(--tittle-color);
 }
 
-.third_section {
+.methods_section {
   display: grid;
   grid-template-columns: 34% 66%;
 }
 
-.third_section_answer .text_answer:not(:last-child) {
+.methods_section_answer .text_answer:not(:last-child) {
   margin-block-end: 20px;
 }
 
-.h3_gallery {
+.tittle_gallery {
   margin-block-end: 20px;
 }
 
@@ -257,7 +256,7 @@
 }
 
 .footer_ttitle {
-  color: var(--h1-color);
+  color: var(--main-tittle-color);
   text-shadow: 2px 2px 0 var(--main-color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 129.53px;
@@ -274,14 +273,12 @@
   }
 
   .hero-text {
-    max-block-size: 117px;
+    block-size: 117px;
     max-inline-size: 364px;
   }
 
-  .second_section {
-    display: grid;
+  .concentration_section {
     grid-template-columns: 1fr;
-    gap: 20px;
   }
 }
 
@@ -296,27 +293,23 @@
   }
 
   .hero-text {
-    max-block-size: 117px;
+    block-size: 117px;
     max-inline-size: 355px;
   }
 
   .corner::before {
-    position: absolute;
-    content: "";
     bottom: 10px;
     left: 10px;
   }
   
   .corner::after {
-    position: absolute;
-    content: "";
     top: 10px;
     right: 10px;
   }
 
   .decor-element {
-    margin-top: 10px;
-    margin-right: 19px; 
+    top: 10px;
+    right: 19px; 
   }
 
   .section {
@@ -335,22 +328,19 @@
     padding-right: 0;
   }
 
-  .first_section {
-    display: grid;
+  .focus_section {
     grid-template-columns: 1fr;
   }
 
-  .answer_h3_p {
+  .answer_focus_section {
     grid-column: 1; 
   }
 
-  .third_section {
-    display: grid;
+  .methods_section {
     grid-template-columns: 1fr;
   }
 
   .gallery {
-    display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
   }
