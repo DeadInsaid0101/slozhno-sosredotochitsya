@@ -1,1 +1,1 @@
-https://github.com/DeadInsaid0101/slozhno-sosredotochitsya
+https://github.com/DeadInsaid0101/slozhno-sosredotochitsya-fd
