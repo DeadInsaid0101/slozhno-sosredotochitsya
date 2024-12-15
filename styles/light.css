@@ -43,8 +43,12 @@
   border-top: 1px solid var(--accent-color-light);
 }
 
-.footer_ttitle {
+.page.theme_light .footer_ttitle {
   text-shadow: 2px 2px 0 var(--text-shadow-footer-tittle);
+}
+
+.page.theme_light .hero-tittle {
+  text-shadow: 4px 4px 0 var(--text-shadow-footer-tittle);
 }
 
 @media (prefers-color-scheme: light) {
