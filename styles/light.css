@@ -7,65 +7,43 @@
 .page.theme_light {
   --main-tittle-color: rgba(255, 194, 230, 1);
   --main-color: rgba(255, 141, 203, 1);
-  --header__theme-menu-button-hover: rgba(50, 49, 45, 0.4);
+  --header-theme-menu-button-hover: rgba(50, 49, 45, 0.4);
   --tittle-color: rgba(53, 52, 48, 1);
   --text-answer: rgba(53, 52, 48, 1);
   --font: 'IBM Plex mono', "Arial";
   --main-font-size: 18px;
   --bg-img: url(../images/cover-image-light.png);  
-  --accent-color-light: rgba(53, 52, 48, 1);
-  --text-shadow-footer-tittle: rgba(255, 0, 112, 1);
+  --accent-color: rgba(53, 52, 48, 1);
+  --text-shadow-hero-tittle: rgba(255, 0, 112, 1);
+  --button-color: rgba(53, 52, 48, 1);
+  --tittle-section-color: rgba(53, 52, 48, 1);
+  --corner-color: rgba(53, 52, 48, 1);
 }
 
 .page.theme_light .decor-element {
   display: none;
 }
 
-.page.theme_light .header__theme-menu-button, .tittle_section {
-  color: var(--accent-color-light);
-}
-
-.page.theme_light .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color-light);
-}
-
-.page.theme_light .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--accent-color-light);
-}
-
-.page.theme_light .corner::before {
-  border-left: 1px solid var(--accent-color-light);
-  border-bottom: 1px solid var(--accent-color-light);
-}
-
-.page.theme_light .corner::after {
-  border-right: 1px solid var(--accent-color-light);
-  border-top: 1px solid var(--accent-color-light);
-}
-
-.page.theme_light .footer_ttitle {
-  text-shadow: 2px 2px 0 var(--text-shadow-footer-tittle);
-}
-
-.page.theme_light .hero-tittle {
-  text-shadow: 4px 4px 0 var(--text-shadow-footer-tittle);
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --main-tittle-color: rgba(255, 194, 230, 1);
     --main-color: rgba(255, 141, 203, 1);
-    --header__theme-menu-button-hover: rgba(50, 49, 45, 0.4);
+    --header-theme-menu-button-hover: rgba(50, 49, 45, 0.4);
     --tittle-color: rgba(53, 52, 48, 1);
     --text-answer: rgba(53, 52, 48, 1);
     --font: 'IBM Plex mono', "Arial";
     --main-font-size: 18px;
     --bg-img: url(../images/cover-image-light.png);  
-    --accent-color-light: rgba(53, 52, 48, 1);
-    --text-shadow-footer-tittle: rgba(255, 0, 112, 1);
+    --accent-color: rgba(53, 52, 48, 1);
+    --text-shadow-hero-tittle: rgba(255, 0, 112, 1);
+    --button-color: rgba(53, 52, 48, 1);
+    --tittle-section-color: rgba(53, 52, 48, 1);
+    --corner-color: rgba(53, 52, 48, 1);
   }
 
   .decor-element {
     display: none;
   } 
+
+
 }

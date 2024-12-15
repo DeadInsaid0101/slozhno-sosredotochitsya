@@ -11,10 +11,15 @@
 .page.theme_dark {
   --main-tittle-color: rgba(219, 0, 255, 1);
   --main-color: rgba(255, 0, 112, 1);
-  --header__theme-menu-button-hover: rgba(255, 0, 112, 0.4);
+  --header-theme-menu-button-hover: rgba(255, 0, 112, 0.4);
   --tittle-color: rgba(0, 0, 40, 1);
   --text-answer: rgba(241, 178, 206, 1);
   --font: 'IBM Plex mono', "Arial";
   --main-font-size: 18px;
   --bg-img: url(../images/cover-image-dark.png);
+  --accent-color: rgba(53, 52, 48, 1);
+  --button-color: rgba(255, 0, 112, 1);
+  --tittle-section-color: rgba(255, 0, 112, 1);
+  --corner-color: rgba(255, 0, 112, 1);
+  --text-shadow-hero-tittle: rgba(255, 0, 112, 1);
 }
