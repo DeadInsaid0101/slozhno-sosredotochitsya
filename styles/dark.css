@@ -23,3 +23,7 @@
   --corner-color: rgba(255, 0, 112, 1);
   --text-shadow-hero-tittle: rgba(255, 0, 112, 1);
 }
+
+.page.theme_dark .decor-element {
+  display: flex;
+}
